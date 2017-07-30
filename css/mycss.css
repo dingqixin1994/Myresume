@@ -1,0 +1,95 @@
+.col-md-5 p{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 2em;
+	text-align:left;
+	color: #FFFAFA;
+}
+
+.col-md-5 h1{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 4em;
+	
+	color: #FFFAFA;
+}
+
+.tag-panel {
+    margin: 15px auto;
+}
+	.tag{
+		background-color: #096254;
+    	color: #AEE2D9;
+    	border-radius: 3px;
+    	display: inline-block;
+    	padding: 3px 12px;
+    	margin-right: 3px;
+    	margin-bottom: 3px;
+    	opacity: 0.5;
+	}
+	.tag-expert {
+		background-color: #096254;
+    	color: #AEE2D9;
+    	border-radius: 3px;
+    	display: inline-block;
+    	padding: 3px 12px;
+    	margin-right: 3px;
+    	margin-bottom: 3px;
+        opacity: 2;
+    }
+    .tag-familiar {
+    	background-color: #096254;
+   		color: #AEE2D9;
+    	border-radius: 3px;
+    	display: inline-block;
+    	padding: 3px 12px;
+    	margin-right: 3px;
+    	margin-bottom: 3px;
+        opacity: 0.75;
+    }
+
+
+    .typewriter{
+        display:none;
+        width:40em;
+        line-height:1.6;color:#333;
+        border:1px solid #030303;
+        padding:1em 3em;
+        margin:5em auto;
+    }
+    .typewriter:after{
+        content:"_";
+        animation:flash .6s steps(2,start) infinite;
+        -webkit-animation:flash .6s steps(2,start) infinite;
+    }
+    .typewriter.gameover:after{display:none;}
+    /* 让DIV向下移动 */
+    @keyframes flash{  
+       0%{visibility:visible;}
+       100%{visibility:hidden;}
+    }
+    @-webkit-keyframes flash{
+       0%{visibility:visible;}
+       100%{visibility:hidden;}
+    }
+    
+        .typewriter_b{
+        display:none;
+        width:40em;
+    }
+    .typewriter_b:after{
+        content:"_";
+        animation:flash .6s steps(2,start) infinite;
+        -webkit-animation:flash .6s steps(2,start) infinite;
+    }
+    
+    #typewriter_b{
+        display:none;
+        background: rgb(48, 48, 48);
+        display:none;
+        width:40em;
+        line-height:1.6;color:white;
+        border:2px solid white;
+        padding:1em 3em;
+        margin:5em auto;
+    }

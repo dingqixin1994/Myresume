@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>丁其鑫的个人简历</title>
+	<!--引入jquery.pagepiling-->
+	<link rel="stylesheet" type="text/css" href="js/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="js/examples.css" />
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+	<!--引入Bootstrap-->
+	<link rel="stylesheet"  type="text/css" href="js/bootstrap.min.css">  
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- 我写的CSS-->
+	<link rel="stylesheet" type="text/css" href="css/img.css" />
+	<link rel="stylesheet" type="text/css" href="css/mycss.css" />
+
+	<script type="text/javascript">
+		var deleteLog = false;
+		//初始化
+		$(document).ready(function() {
+	    	$('#pagepiling').pagepiling({
+	    		menu: '#menu',
+	    		anchors: ['page1', 'page2', 'page3','page4'],
+			    sectionsColor: [ '#EEEED1','#CD853F', '#E9967A', '#B2DFEE'],
+			    loopTop: true,
+			    loopBottom: true
+			});
+	    });
+
+
+     
+
+    </script>
+</head>
+<body>
+	<!-- 顶部导航-->
+	<ul id="menu">
+		<li data-menuanchor="page1" class="active"><a href="#page1">Home page</a></li>
+		<li data-menuanchor="page2"><a href="#page2">Basic data</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Experience</a></li>
+		<li data-menuanchor="page4"><a href="#page4">Contact me</a></li>
+	</ul>
+
+	<div style="position:fixed;top:50px;left:50px;color:#030303;z-index:999;" id="callbacksDiv"></div>
+	
+	<div id="pagepiling">
+	<!-- 首页-->
+	    <div class="section" id="section1">
+	    	<img id="avatar" src="img/me.png" />
+	    	<h1>My name is dingqixin</h1>
+			<h2>我着迷突破一个难点后的喜悦</h2>
+			<h3></h3>
+			<h4><a href="#page2">了解我更多</a></h4>
+	    </div>
+	
+	<!-- 个人简介-->
+	    <div class="section" id="section2">
+	    	<div class="container">
+	    		<div class="intro">
+
+		<!-- Example row of columns -->
+					<div class="col-md-1"></div>
+					<div class="col-md-5">
+						<p calss="p2">&nbsp;</p>
+						<p calss="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name | 丁其鑫</p>
+						<p calss="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone | 13007170877</p>
+						<p calss="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email | 75100510@qq.com</p>
+						<p calss="p2">Residence | 福建厦门</p>
+						<p calss="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School | 中南民族大学</p>
+						<p calss="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Major | 软件工程</p>
+					</div>
+
+					<div class="col-md-5">
+						<h1>I'm good at:</h1>
+                		<div class="tag-panel">
+                    		<div class="tag-expert">CSS</div>
+							<div class="tag-familiar">HTML5</div>
+                		</div>
+                		<div class="tag-panel">
+                    		<div class="tag-expert">JavaScript</div>
+                    		<div class="tag-expert">jQuery</div>
+                    		<div class="tag-expert">Bootstrap</div>
+                		</div>
+                		<div class="tag-panel">
+                    		<div class="tag-familiar">Ajax</div>
+                    		<div class="tag">Json</div>
+                		</div>
+                		<h1>I am familiar with:</h1>
+                		<div class="tag-panel">
+                    		<div class="tag-familiar">Java</div>
+                    		<div class="tag-familiar">Jsp</div>
+                    		<div class="tag-expert">mysql</div>
+                		</div>
+                		<div class="tag-panel">
+                    		<div class="tag-expert">Spring</div>
+                   		    <div class="tag-familiar">Springmvc</div>
+                  		    <div class="tag-familiar">mybatis</div>
+                		</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+	    	</div>
+	    </div>
+		<!-- 项目展示-->
+	    <div class="section" id="section3">
+			<div class="" id="container">
+	    	<div class="intro" >
+	    		<div class="" id="col-1">
+	    		<div class="typewriter" id="typewriter" style="text-align:left">
+    				我来自福建泉州<br />
+    				2013年9月，我来到湖北武汉，就读于中南民族大学<br /><br />
+    				
+    				2017年，临近毕业，初入社会。<br />
+    				参加创业项目：大学资料分享网<br />
+    				项目描述：网站用于大学校园的学习资料分享，主要包括课程设计的程序与期末复习资料的上传及下载。<br />
+    				主要技术：SSM+Mysql+java+javaScript+JQuery+json+Ajax+Bootstrap。<br />
+    				责任描述：网站前端页面设计与实现，复习资料分享模块后台数据处理及前端对分页显示。<br /><br />
+
+					现在我回到厦门，希望可以在家乡落地生根。<br />
+  				</div>
+  				</div>
+  				<div class="" id="col-2">
+  				<div  class="typewriter_b" id="" style="text-align:left;">
+  					1. #typewriter_b{<br />
+       				2. background: rgb(48, 48, 48);<br />
+        			3. line-height:1.6;color:white;<br />
+        			4. border:2px solid white;<br />
+       				5. padding:1em 3em;<br />
+        			6. margin:5em auto;<br />
+    				7. }<br /><br />
+    				8. /* 如果你喜欢我，那么就*/<br />
+    				9. var button = document.createElement("button");<br />
+    				10. document.getElementById('btn_div').appendChild(button)<br />
+    				11. .innerHTML="&#60;a href='#page4'>Contact me！</a>";<br />
+    				12. button.className="btn btn-primary";<br />
+    				
+  				</div>
+  				<div id="btn_div">
+  					<button style="display:none;margin:0 auto;" id="button"></button>
+  				</div>
+  				</div>
+	    	</div>
+	    	</div>
+
+	    <script  src="js/myjs.js">
+    	</script>
+	    </div>
+		
+		<!-- 结尾-->
+	    <div class="section" id="section4">
+	    	<div class="intro">
+	    		<h1>我要到碗里去</h1>
+				<h2>Email:75100510@qq.com</h2>
+	    	</div>
+	    </div>
+	</div>
+
+</body>
+</html>
